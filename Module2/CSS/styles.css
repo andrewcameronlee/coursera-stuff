@@ -1,0 +1,96 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+}
+
+p {
+  width: 95%;
+  height: 113px;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: black;
+  font-size: 0.9em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.row {
+  width: 100%;
+}
+
+.mealtype {
+    position: relative;
+    top: -1px;
+    left: 70%;
+    text-align: center;
+    width: 30%;        
+    font-size: 1.25em;
+    border: 1px solid black;
+}
+
+#m1 {
+    background-color: pink;
+
+}
+#m2 {
+    background-color: orangered;
+    color: white;
+}
+#m3 {
+    background-color: lightyellow;
+}
+
+div {
+    background-color: lightgray;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .desktop {
+    float: left;
+    border: 1px solid black;
+    margin-left: 1%;  
+    margin-right: 1%;
+    width: 31%;
+  }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet {
+    float: left;
+    border: 1px solid black;
+    margin-left: 1%;  
+    margin-right: 1%;
+    width: 48%;
+  }
+  .tablet_w {
+    float: left;
+    border: 1px solid black;
+    margin: 1%;  
+    width: 98%;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .mobile {
+    float: left;
+    border: 1px solid black;
+    margin: 1%;  
+    width: 98%;
+  }
+}
