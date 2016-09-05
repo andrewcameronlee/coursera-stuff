@@ -1,0 +1,25 @@
+.navstyle {
+    background-color: skyblue;
+    color: white;
+}
+
+.menuitem {
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+
+
+}
+
+.menudesc {
+    text-align: left;  
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+    height: 1000px;
+}
+
+.menutext {
+    text-align: justify;
+}
